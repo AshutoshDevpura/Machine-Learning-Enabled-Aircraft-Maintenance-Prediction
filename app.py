@@ -41,7 +41,7 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 with st.spinner("✈️ Loading data, please wait..."):
-    file_path = "/Users/ashutoshdevpura/Downloads/Airplane/aircraft_maintenance_dataset - aircraft_maintenance_dataset.csv"
+    file_path = "/Users/ashutoshdevpura/Desktop/Projects/Airplane/aircraft_maintenance_dataset - aircraft_maintenance_dataset.csv"
     supervised_learning_df = load_data(file_path)
 
 # Data Preprocessing
