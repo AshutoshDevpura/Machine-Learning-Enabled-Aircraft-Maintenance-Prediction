@@ -1,0 +1,46 @@
+# Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Cache files
+__pycache__/
+*.pkl
+
+# Streamlit specific files
+.streamlit/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Model files
+*.joblib
+*.h5
+
+# GitHub specific files
+*.md~
+
+
+# Ignore requirements backup
+*.txt~
