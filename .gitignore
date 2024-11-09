@@ -20,6 +20,7 @@ __pycache__/
 
 # Environment variables
 .env
+.venv
 
 # OS generated files
 .DS_Store
